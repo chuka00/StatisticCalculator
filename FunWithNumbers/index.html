@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Mathematics Calculator Switch App </h1>
+        <div class="input-container">
+            <label for="number-input">Enter numbers (comma-separated):</label>
+            <input type="text" id="number-input" placeholder="e.g., 1, 2, 3, 4">
+        </div>
+        <div class="select-container">
+            <label for="stat-type">Choose a statistic:</label>
+            <select id="stat-type">
+                <option value="mean">Mean</option>
+                <option value="median">Median</option>
+                <option value="mode">Mode</option>
+                <option value="sum">Sum</option>
+                <option value="minimum">Minimum</option>
+                <option value="range">Range</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <button id="calculate-button">Calculate</button>
+        <div id="result-container">
+            <p>Result:</p>
+            <p id="result"></p>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
